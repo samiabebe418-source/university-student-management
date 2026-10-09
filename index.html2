@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Student portal</title>
+</head>
+<body>
+  <header>
+    <h>University Student portal</h>
+    <p>well come to student information system</p>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#students">Students</a>
+        <a href="#results">Results</a>
+        <a href="#schedule">Schedule</a>
+        <a href="#contact">Contact</a>
+    </nav>
+  </header>  
+  <section id="Home">
+    <h2>Wellcome</h2>
+    <P>Wellcome to our Universitystudent
+        students can view courses , results, schedules also other information 
+        in University
+    </P>
+    <img src="haramaya.jpg"
+    alt="Haramaya Campus"
+    width="450">
+  </section>
+  <hr>
+  <section id="student">
+    <h2>student regisration</h2>
+    <form>
+        <label for="name">name</label><br>
+        <input type="text" id="name" name="name"required>
+        <br><br>
+        <label for="email">email</label><br>
+        <input type="email" id="email" name="email"required>
+        <br><br>
+        <label for="age">Age</label><br>
+        <input type="number" id="age" name="age">
+        <br><br>
+        <label for="gender">Gender</label><br>
+        <select name="gender" id="gender">
+            <option>male</option>
+            <option>female</option>
+        </select>
+        <br><br>
+        <label for="department">Department</label><br>
+        <select name="department" id="department">
+            <option>Computer Science</option>
+            <option>Softwere Enginer</option>
+            <option>Information Technology</option>
+            <option> infotmation system</option>
+        </select>
+        <label for="message"> additional information</label><br>
+        <textarea
+        id="message"
+        name="message"
+        rows="5"
+        cols="32">
+    </textarea>
+    <br><br>
+    <button type="submit">Register</button>
+    <button type="reset"> Clear</button>
+    </form>
+  </section>
+  <section id="courses">
+    <h2>Available Courses</h2>
+    <ul>
+        <li>Web Development</li>
+        <li>Programming</li>
+        <li>Database System</li>
+        <li>Data Structure</li>
+    </ul>
+  </section>
+  <hr>
+  <section id="result">
+    <h2>student result</h2>
+    <table border="1">
+        <tr>
+            <th>Course</th>
+            <th>Credit hours</th>
+            <th>Grade</th>
+            <th>Result</th>
+        </tr>
+        <tr>
+        <td>Web development</td>
+        <td>3</td>
+        <td>A</td>
+        <td>pass</td>
+        </tr>
+        <tr>
+            <td>Programming</td>
+            <td>4</td>
+            <td>B+</td>
+            <td>pass</td>
+        </tr>
+        <tr>
+            <td>Database system</td>
+            <td>4</td>
+            <td>A+</td>
+            <td>pass</td>
+        </tr>
+    </table>
+  </section>
+  <hr>
+  <section id="schedules">
+<h2>Class Schedules</h2>
+<table border="1">
+    <tr>
+        <th>Day</th>
+        <th>Course</th>
+        <th>Time</th>
+        <th>Room</th>
+    </tr>
+    <tr>
+        <th>monday</th>
+        <th>programming</th>
+        <th>8:00</th>
+        <th>Room 23</th>
+    </tr>
+    <tr>
+        <th>tuesday</th>
+        <th>web development</th>
+        <th>3:00</th>
+        <th>Room 263</th>
+    </tr>
+    <tr>
+        <td>Wednesday</td>
+        <td>Data structure</td>
+        <td>7:00</td>
+        <td>Room 43</td>
+    </tr>
+</table>
+</section>
+<hr>
+<section>
+    <h2>Our Teachers</h2>
+    <article>
+        <h3>mr.Ahmed</h3>
+        <p>nprogramming istructor</p>
+    </article>
+    <article>
+        <h3>mr.Samuel</h3>
+        <p>web program</p>
+    </article>
+    <article>
+        <h3>mr.Robel</h3>
+        <p>data structure</p>
+    </article>
+</section>
+<hr>
+<section>
+    <h2>Announcement</h2>
+    <article>
+        <h3>regisration</h3>
+        <p>student regisration now open</p>
+    </article>
+    <article>
+        <h3>Examination</h3>
+        <p>final eximination open soon</p>
+    </article>
+</section>
+<hr>
+<footer>
+    <p>
+        <a href="#home"></a>
+    </p>
+</footer>
+</body>
+</html>
